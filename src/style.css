@@ -8,8 +8,19 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+body {
+  background-color: black;
+  background-image: url(./img/bg.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  padding: 1rem;
+  color: white;
+}
+
 .container {
-  width: 900px;
+  max-width: 26rem;
   margin-right: auto;
   margin-left: auto;
 }
+
